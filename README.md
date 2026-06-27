@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## 🌐 Ultimate WiFi Hacker - Professional Edition
 
 **A Comprehensive WiFi Security Assessment Tool for Ethical Hackers & Security Researchers**
@@ -323,3 +324,7 @@ If you find this tool useful, please **star ⭐** the repository on GitHub! It h
 ---
 
 **Made with 🔥 for the cybersecurity community.**
+=======
+# Hacking-and-security-tools
+Hacking and security tools for Python and other languages ​​for enthusiasts
+>>>>>>> f25fe3ee76c6d528e66e1b0f34769ab23a5a303b
