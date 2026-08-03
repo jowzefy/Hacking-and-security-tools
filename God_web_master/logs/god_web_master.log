@@ -1,0 +1,3 @@
+2026-08-03 19:21:37 [[32mINFO[0m] root.setup_logging:120: Logging system initialized
+2026-08-03 19:22:34 [[32mINFO[0m] core.scanner.webtech.pre_scan_hook:110: Initiating web tech scan for: fmu.dpm.ir
+2026-08-03 19:22:34 [[32mINFO[0m] core.scanner.webtech.post_scan_hook:116: Scan completed. Detected 0 technologies

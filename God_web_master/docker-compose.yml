@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  god-web-master:
+    build: .
+    container_name: god_web_master
+    volumes:
+      - ./output:/app/output
+      - ./logs:/app/logs
+      - ./config:/app/config:ro
+    environment:
+      - GWM_ENCRYPT_OUTPUT=true
+      - GWM_OUTPUT_DIR=/app/output
+      - GWM_LOG_DIR=/app/logs
+      - GWM_VERIFY_SSL=true
+      - GWM_TIMEOUT=15
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+    networks:
+      - scanner-network
+
+networks:
+  scanner-network:
+    driver: bridge
